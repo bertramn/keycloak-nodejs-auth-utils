@@ -4,7 +4,6 @@ const test = require('tape-catch');
 const { RSA } = require('rsa-compat');
 const Config = require('../../index').Config;
 
-
 test('Config#configure', (t) => {
   let cfg = new Config({'realm': 'test-realm'});
 
