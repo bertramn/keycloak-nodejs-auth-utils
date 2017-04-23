@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('tape-catch');
-const { RSA } = require('rsa-compat');
+const RSA = require('rsa-compat').RSA;
 const Config = require('../../index').Config;
 
 test('Config#configure', (t) => {
